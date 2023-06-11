@@ -326,7 +326,7 @@ class _MyWidgetState extends State<LoginCustomer> {
             ),
           );
         });
-          checklogin(username,password,context);
+          checklogin(username,generateHash(password),context);
           
         }
         return Text('');
