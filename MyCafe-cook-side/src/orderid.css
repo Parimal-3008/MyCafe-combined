@@ -1,0 +1,16 @@
+.cellparent
+{
+    /* border: 2px solid blue; */
+  overflow-x: none;
+  overflow-y: auto;
+    width:15%;
+    height: 30px;
+    margin-left: 10px;
+   margin-right: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #2C263B;
+   color:#f6c769;
+
+}

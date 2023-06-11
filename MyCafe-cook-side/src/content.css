@@ -1,0 +1,15 @@
+.contentparent
+{
+   /* border: 1px solid brown; */
+   margin-left: 10px;
+   margin-right: 10px;
+   width: 60%;
+   height:fit-content;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: none;
+  overflow-y: auto;
+  background-color: #2C263B;
+  color:#f6c769;
+}

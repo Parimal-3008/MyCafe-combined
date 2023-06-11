@@ -1,0 +1,80 @@
+.App
+{
+  background-color: #2C263B;
+  
+}
+.heading
+{
+  color:#FFC857;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2C263B;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.extraspace
+{
+  height: 1vh;
+  width: 100%;
+  /* border:1px solid red */
+  background-color: white;
+}
+.Table, .Table2
+{
+  display: flex;
+ 
+}
+.Table2
+{
+  margin-bottom: 30px;
+}
+.parent
+{
+  background-color: #2C263B;
+}
+.Orderid1, .Order1, .Username
+{
+    width:15%;
+    height: 30px;
+    margin-left: 10px;
+   margin-right: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #2C263B;
+   color:#f6c769;
+   font-weight: bolder;
+   font-size:xx-large;
+   margin-bottom: 20px;
+   margin-top: 10px;
+   border-radius: 10px;
+}
+.childTable
+{
+  background-color: #2C263B;
+  height: 40em;
+  overflow: auto;
+}
+.Order1{
+   width:60%;  
+}
+.removebutton
+{
+   height: 2.5em;
+   width:auto;
+   color:#2C263B;
+   font-weight: bolder;
+   background-color: #FFC857;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.removebutton:hover
+{
+  cursor: pointer;
+  
+}
